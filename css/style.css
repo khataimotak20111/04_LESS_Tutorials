@@ -1,0 +1,76 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #006699;
+  font-family: Tahoma, sans-serif;
+}
+p {
+  color: #006699;
+}
+.panel {
+  border: 3px solid orange;
+  background-color: green;
+  margin: 10px;
+}
+.little-panel {
+  border: 3px solid orange;
+  background-color: green;
+  margin: 10px;
+  font-size: 12px;
+  padding: 5px;
+}
+.big-panel {
+  border: 3px solid orange;
+  background-color: green;
+  margin: 10px;
+  font-size: 32px;
+  padding: 20px;
+}
+#side-nav {
+  background-color: #333333;
+}
+#side-nav a:link,
+#side-nav a:visited {
+  color: white;
+  display: block;
+  padding: 8px;
+}
+#side-nav a:hover {
+  background-color: #777777;
+}
+#welcome {
+  font-size: 32px;
+  background-color: lightgreen;
+}
+@media screen and (max-width: 768px) {
+  #welcome {
+    font-size: 18px;
+    background-color: purple;
+  }
+}
+.button {
+  background: #006699;
+  color: #ffffff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.jumbo {
+  background: #006699;
+  color: #ffffff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 35px;
+}
+.light {
+  background: #006699;
+  color: #ffffff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  background: #00a3f5;
+}
+
+/*# sourceMappingURL=style.css.map */

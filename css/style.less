@@ -1,0 +1,71 @@
+@grass: #006699;
+
+body{
+	background-color: #000000;
+}
+
+h1{
+	color: @grass;
+	font-family: Tahoma, sans-serif;
+}
+
+p{
+	color: @grass;
+}
+
+.panel{
+	border: 3px solid orange;
+	background-color: green;
+	margin: 10px;
+}
+
+.little-panel{
+	.panel;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.big-panel{
+	.panel;
+	font-size: 32px;
+	padding: 20px;
+}
+
+#side-nav{
+	
+	background-color: #333333;
+	
+	a:link, a:visited{
+		color: white;
+		display: block;
+		padding: 8px;
+	}
+	
+	a:hover{
+		background-color: #777777;
+	}
+	
+}
+
+#welcome{
+	font-size: 32px;
+	background-color: lightgreen;
+	
+		@media screen{
+			@media(max-width: 768px){
+				font-size: 18px;
+				background-color: purple;
+			}
+		}
+	
+}
+
+@buttonBackground: #006699;
+@buttonColor: #ffffff;
+@buttonPadding: 5px;
+
+@import "button";
+
+
+
+// comment
